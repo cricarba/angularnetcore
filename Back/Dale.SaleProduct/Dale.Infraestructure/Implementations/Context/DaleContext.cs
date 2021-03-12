@@ -22,7 +22,7 @@ namespace Dale.Infraestructure.Implementations.Context
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Data Source=BG-D-CCARVAJAL1;Database=Dale;User ID=admuser;Password=Aranda2019");
+            optionsBuilder.UseSqlServer(@"Data Source=;Database=;User ID=;Password=");
             base.OnConfiguring(optionsBuilder);
         }
     }
